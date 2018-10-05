@@ -1,0 +1,6 @@
+framework module Pods_Telephone_Keyboard {
+  umbrella header "Pods-Telephone Keyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

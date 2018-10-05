@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0733D1359303EB0CD27419414523EAD7 /* JCPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A08502D158C220C850501EC3AF1CFA5 /* JCPadButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0751061D16CB4FF94117E3D9699BFC83 /* JCDialPad.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB96CE124DADD391661ADA0575B5856 /* JCDialPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CA08C1B6787B6D0F83CB6BEB2F70FF /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A7A4EE6B4BC85B5811DBFED49CE5DE /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18AD22A532A4930EA595F3DC92F7E76B /* libPhoneNumber-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D6D0FB9A75968F6E3EA78AA7E0887 /* libPhoneNumber-iOS-dummy.m */; };
+		1C8E78937DA7D3D5AE88389E4C867EB1 /* JCDialPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 20370F54F5A91766872B7990BA07F520 /* JCDialPad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		227EDE5205B6256572137A356FA87B75 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B704BDAF55562180A214C8B56C7852DA /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CBE97E52FE18E3D14E5F44466524F4 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E48A865FBF48EA1AE0FFC555F479B2E /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CBB3CC70F1AC0ED5E98BB917EE41F33 /* UIView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BECCC59F2110D5792157A25F53C0CA5 /* UIView+FrameAccessor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34BCB31C7F7FFDDBF102264F77A22B93 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 984CCA13B506B643507EAD038F938720 /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405E834912E3185FEB0AE2340B1D16A5 /* Pods-Telephone KeyboardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96804DF4D4AE0CDBF1A67CCDAEBABF42 /* Pods-Telephone KeyboardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43586F4E1B6806D766E2D140F7AFF0DB /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A64A42F38EF44A1B6F3D37B763F0BD /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4819D5899302C033E1DE0987EA1C7D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */; };
+		4D2E9694C843A1FEB2B1284685D8894D /* JCDialPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87EB3BBEC3964D7C449140F7F2873D1 /* JCDialPad-dummy.m */; };
+		58C13DEF8C9A1151C027181F0DA0CB8B /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3D367E2B38C8655765A27D88EFEF3A /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5B5AA80063F75411B97FE237A22A457D /* Pods-Telephone Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8542C3F820A185A981004D80AC1A3657 /* Pods-Telephone Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE4C255B9BDAFE8A5602354E0937999 /* JCDialPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC18DBAE0D8EFC5836EC38BFFD2800C /* JCDialPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8221A54B2A83BCA311FBC000334A7D8A /* UIView+FrameAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F0C3223E6FDC5244BDD21C53862725 /* UIView+FrameAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8406DF5D606BC32CA40BEA2DC8CF6276 /* Pods-Telephone KeyboardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79EFFBFBD179A6A65E2EEFF2CC090F /* Pods-Telephone KeyboardTests-dummy.m */; };
+		8CC38DEE112D2CA2A36FE0D59BEB797E /* libPhoneNumber_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3315CBF60FEE8263EE8E5334F4C54953 /* libPhoneNumber_iOS.framework */; };
+		8F9BE526F2B034460981C378C957791A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */; };
+		8FACD3CE4DDEF7646BECA6893D02DFD3 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D04510D5B482DB254789DCB0675F1D9 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F5C77FA1C1D4FF0438761C025851E5 /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 26341939E98B281A6C0C3F894D7E90F3 /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F704F3C018E758CE5D9C37EDDB456B /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF56CB00B0A7574FEDBD36129188377 /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		980B2DCCCDA34E5BF3565260ED26D943 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 762E91D11D1321ED913D82D9C1D1723B /* NBPhoneNumberDefines.m */; };
+		9CD2A3EC4B306972427B3D1EDA618685 /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E7656DF98B3B3C46D04B6BD7BBE91 /* NBAsYouTypeFormatter.m */; };
+		A1FDDFBCED75A75C849275D96E9D5F1D /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 648B523FCECBF9305A960A61FC0C4636 /* NBPhoneNumberDesc.m */; };
+		A446D927248482C108C7C6EABE79065B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */; };
+		AA3023224D8EED433E9FEC0C47E746E4 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C721D907759B59261746DB34C56273F /* NBNumberFormat.m */; };
+		B2B071C8F593CF3C9C496768DE9F7E66 /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C71F583B5B03BB512C41927C5532 /* NBPhoneMetaData.m */; };
+		B2B4B4913954DD224075BDDF67D77879 /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A0FD98FB0F43522E3C66DD74E3B71C /* NSArray+NBAdditions.m */; };
+		B581AA5B81C740A647FD18B54555F354 /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = A445594CFB2F1403C42EE6B68FE39F2F /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B85B2BA0477CF12287E85BC70F44FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */; };
+		B9634F997FB5A6FB9ACF5C1B2D6362E1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC53EDB80047C7AF3B6CCFD7F0E1BD93 /* CoreTelephony.framework */; };
+		C0440E53560CC3CCF817EE538ECE741A /* Pods-Telephone KeyboardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E54C17E23A6F74A7DD11FDDA13D316 /* Pods-Telephone KeyboardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95AD8B7D9AB8A4A7087E310A85AFFB8 /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE171907A6CCCD7252EB6044DEAE7D4 /* NBMetadataHelper.m */; };
+		D4D1E027060F89421152E5D4FB020FD4 /* libPhoneNumber-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4107ACC8AF420EB0FF38CED729A3D13A /* libPhoneNumber-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5519515E0C703388CBE3813FE60F21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */; };
+		DDC62B1373C35417D76A1120A4BFCE35 /* JCPadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 333189BFFAB18A64DF026C5137B6C822 /* JCPadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15AF2D55BB82B3048DEC1A1ECB70158 /* Pods-Telephone Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20753DEA036C281D55C189624EDB09C0 /* Pods-Telephone Keyboard-dummy.m */; };
+		E171B6350C911B5A1EA114B9328AA2B3 /* Pods-Telephone KeyboardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05EA853490F8AE4554AFC641FB184 /* Pods-Telephone KeyboardUITests-dummy.m */; };
+		E70507FE4497B6828DE1417BA750C476 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA12886E7D303AEDF5148240211A161 /* NBPhoneNumber.m */; };
+		E9CA3B8BB6E9073ED17DDDDD8CEB5302 /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D253E096E30247B12C10D17B6FE6D0E0 /* NBPhoneNumberUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DECF11DB22DB28955FEC94B44777F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF539237882C886DCFB8D95ECF8490F3;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+		21B9FAB84356B3A10B4EA9D2299165CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C2523B69DE1AD6D791628BE542D9C4;
+			remoteInfo = JCDialPad;
+		};
+		34B3ED2C8E8BC64A68B6BE936BFCCA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC225F85B9FC9C4617001696CDD84E0;
+			remoteInfo = "Pods-Telephone Keyboard";
+		};
+		A060ABD0779FC6728F4921B4B340A47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC225F85B9FC9C4617001696CDD84E0;
+			remoteInfo = "Pods-Telephone Keyboard";
+		};
+		AD55A21E914D9E4B5E7D472E18D5AD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF539237882C886DCFB8D95ECF8490F3;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011A4FE20DE87E91EC9A90D0E7DA7483 /* Pods-Telephone KeyboardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone KeyboardUITests-frameworks.sh"; sourceTree = "<group>"; };
+		14B06F0596E8716B689718850FB5FB2D /* Pods_Telephone_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Telephone_Keyboard.framework; path = "Pods-Telephone Keyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A08502D158C220C850501EC3AF1CFA5 /* JCPadButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCPadButton.m; path = JCDialPad/JCPadButton.m; sourceTree = "<group>"; };
+		1EC18DBAE0D8EFC5836EC38BFFD2800C /* JCDialPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCDialPad-umbrella.h"; sourceTree = "<group>"; };
+		20370F54F5A91766872B7990BA07F520 /* JCDialPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCDialPad.m; path = JCDialPad/JCDialPad.m; sourceTree = "<group>"; };
+		20753DEA036C281D55C189624EDB09C0 /* Pods-Telephone Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telephone Keyboard-dummy.m"; sourceTree = "<group>"; };
+		26341939E98B281A6C0C3F894D7E90F3 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		2C3D367E2B38C8655765A27D88EFEF3A /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBGeneratedPhoneNumberMetaData.h; path = libPhoneNumber/NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
+		2C721D907759B59261746DB34C56273F /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		2E48A865FBF48EA1AE0FFC555F479B2E /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		2E82D7746050346B9B945685CCE1332A /* Pods-Telephone KeyboardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telephone KeyboardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		308C869A1B357FF18F5739541A0B16CD /* libPhoneNumber-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libPhoneNumber-iOS.xcconfig"; sourceTree = "<group>"; };
+		3315CBF60FEE8263EE8E5334F4C54953 /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libPhoneNumber_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3330C24DC1A93140D39AEE1B6DFB8C8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333189BFFAB18A64DF026C5137B6C822 /* JCPadButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCPadButton.h; path = JCDialPad/JCPadButton.h; sourceTree = "<group>"; };
+		3683D724E6C21BA07D480E793360ADED /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libPhoneNumber_iOS.framework; path = "libPhoneNumber-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37479F1003759CC0D5EEE3AE8146AD99 /* Pods-Telephone KeyboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone KeyboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37A64A42F38EF44A1B6F3D37B763F0BD /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
+		3BECCC59F2110D5792157A25F53C0CA5 /* UIView+FrameAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameAccessor.m"; path = "JCDialPad/UIView+FrameAccessor.m"; sourceTree = "<group>"; };
+		4107ACC8AF420EB0FF38CED729A3D13A /* libPhoneNumber-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-umbrella.h"; sourceTree = "<group>"; };
+		4163E188578ECEB116EBA560F3AB3EFD /* Pods-Telephone Keyboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone Keyboard-frameworks.sh"; sourceTree = "<group>"; };
+		4F523BDD789EA5A01DAB95B5795D7606 /* Pods-Telephone KeyboardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telephone KeyboardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FA05EA853490F8AE4554AFC641FB184 /* Pods-Telephone KeyboardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telephone KeyboardUITests-dummy.m"; sourceTree = "<group>"; };
+		504DB643886342CB735967FB5019509D /* JCDialPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCDialPad.framework; path = JCDialPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA12886E7D303AEDF5148240211A161 /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		5D06C71F583B5B03BB512C41927C5532 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		5E44FB70C040153AF6B304579A6D219E /* Pods-Telephone Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Telephone Keyboard.modulemap"; sourceTree = "<group>"; };
+		61B035861819F89CEB4C5CA228514432 /* Pods_Telephone_KeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Telephone_KeyboardUITests.framework; path = "Pods-Telephone KeyboardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6476FFB29B85F18D8CE19C4B5D705921 /* Pods-Telephone KeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone KeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		648B523FCECBF9305A960A61FC0C4636 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		6D7841DE1A453B44E1949B4702364BB9 /* Pods-Telephone Keyboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone Keyboard-resources.sh"; sourceTree = "<group>"; };
+		75A0FD98FB0F43522E3C66DD74E3B71C /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NBAdditions.m"; path = "libPhoneNumber/NSArray+NBAdditions.m"; sourceTree = "<group>"; };
+		75EF13FEBE25A90DC89863592B5A4D57 /* JCDialPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCDialPad-prefix.pch"; sourceTree = "<group>"; };
+		762E91D11D1321ED913D82D9C1D1723B /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		76ABAC894F01DF3E6E2C9BD8CD8D76C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E54C17E23A6F74A7DD11FDDA13D316 /* Pods-Telephone KeyboardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telephone KeyboardUITests-umbrella.h"; sourceTree = "<group>"; };
+		805768FFFF162397DBDF46499006B4A9 /* Pods-Telephone KeyboardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone KeyboardTests-frameworks.sh"; sourceTree = "<group>"; };
+		8542C3F820A185A981004D80AC1A3657 /* Pods-Telephone Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telephone Keyboard-umbrella.h"; sourceTree = "<group>"; };
+		8A13CA623666E3B232ACA960C8241943 /* Pods-Telephone Keyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telephone Keyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B5D6D0FB9A75968F6E3EA78AA7E0887 /* libPhoneNumber-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libPhoneNumber-iOS-dummy.m"; sourceTree = "<group>"; };
+		8CF56CB00B0A7574FEDBD36129188377 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		90A7A4EE6B4BC85B5811DBFED49CE5DE /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96804DF4D4AE0CDBF1A67CCDAEBABF42 /* Pods-Telephone KeyboardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telephone KeyboardTests-umbrella.h"; sourceTree = "<group>"; };
+		984CCA13B506B643507EAD038F938720 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		997E94323C0417ADFFA4E9C6027F5F25 /* Pods-Telephone Keyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telephone Keyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B9045C18E17DB6530844491C807A4CA /* Pods-Telephone KeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone KeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C2BDD98B550B0155202449B04C53E64 /* JCDialPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCDialPad.modulemap; sourceTree = "<group>"; };
+		9D04510D5B482DB254789DCB0675F1D9 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		A445594CFB2F1403C42EE6B68FE39F2F /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		A747653AD4BD7C6A7DB8DCC5DF028A6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96E7656DF98B3B3C46D04B6BD7BBE91 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		AC53EDB80047C7AF3B6CCFD7F0E1BD93 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		ADE171907A6CCCD7252EB6044DEAE7D4 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		B07FA0D7A2426CDA1236FF3B2CD29284 /* libPhoneNumber-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "libPhoneNumber-iOS.modulemap"; sourceTree = "<group>"; };
+		B367950A3EF5BE7BAB48B4463561A9F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60ADFE55A80EF4A372573D77928952D /* Pods-Telephone KeyboardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Telephone KeyboardUITests.modulemap"; sourceTree = "<group>"; };
+		B704BDAF55562180A214C8B56C7852DA /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NBAdditions.h"; path = "libPhoneNumber/NSArray+NBAdditions.h"; sourceTree = "<group>"; };
+		B87EB3BBEC3964D7C449140F7F2873D1 /* JCDialPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCDialPad-dummy.m"; sourceTree = "<group>"; };
+		B96921B13F354CD7CBCE6782840651F6 /* Pods-Telephone Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		C23EE8ED6AE19E61CAEB757525A9D3B2 /* Pods-Telephone KeyboardUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone KeyboardUITests-resources.sh"; sourceTree = "<group>"; };
+		C666DFF2BC2E8373505E45081D7BFC92 /* Pods-Telephone KeyboardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone KeyboardTests-resources.sh"; sourceTree = "<group>"; };
+		D253E096E30247B12C10D17B6FE6D0E0 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		D6B3F6DBE67C66A7A2CC061EA6911A10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA79EFFBFBD179A6A65E2EEFF2CC090F /* Pods-Telephone KeyboardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telephone KeyboardTests-dummy.m"; sourceTree = "<group>"; };
+		DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1E973F1FE78692DA5179161BD18ED08 /* libPhoneNumber-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-prefix.pch"; sourceTree = "<group>"; };
+		E630630C0A8680E31C5A3FA18822D3B4 /* Pods_Telephone_KeyboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Telephone_KeyboardTests.framework; path = "Pods-Telephone KeyboardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6688DC90DC1A08A5CEBDFE6A56D8B96 /* Pods-Telephone KeyboardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telephone KeyboardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBD178AE9F53F194316C52C4FA1AED2D /* Pods-Telephone KeyboardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telephone KeyboardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF943CA122B8C4233A382F3E95B8C1CE /* Pods-Telephone KeyboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone KeyboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2F0C3223E6FDC5244BDD21C53862725 /* UIView+FrameAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameAccessor.h"; path = "JCDialPad/UIView+FrameAccessor.h"; sourceTree = "<group>"; };
+		F5A959D432C9CD32BBDA2074A102F3F3 /* Pods-Telephone Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F64BF9A21DC29BD2CE47CA67A71CDE /* JCDialPad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCDialPad.xcconfig; sourceTree = "<group>"; };
+		F8A6B64B6C6955D5D36B0F94C209882A /* Pods-Telephone KeyboardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Telephone KeyboardTests.modulemap"; sourceTree = "<group>"; };
+		FAB96CE124DADD391661ADA0575B5856 /* JCDialPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCDialPad.h; path = JCDialPad/JCDialPad.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD24EC8A708C6192AC78B7CBEECBB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9BE526F2B034460981C378C957791A /* Foundation.framework in Frameworks */,
+				8CC38DEE112D2CA2A36FE0D59BEB797E /* libPhoneNumber_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6F61F9BF913CE09FC821DBA09738C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5519515E0C703388CBE3813FE60F21F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04206746E800641ADA149DC55ACC47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4819D5899302C033E1DE0987EA1C7D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64AD316662FE44B882DF747CA414353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9634F997FB5A6FB9ACF5C1B2D6362E1 /* CoreTelephony.framework in Frameworks */,
+				B8B85B2BA0477CF12287E85BC70F44FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF439ED9F826058176A8EA427EB3900B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A446D927248482C108C7C6EABE79065B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251CBCC45702BC4CFA3958629559D742 /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90A7A4EE6B4BC85B5811DBFED49CE5DE /* NBAsYouTypeFormatter.h */,
+				A96E7656DF98B3B3C46D04B6BD7BBE91 /* NBAsYouTypeFormatter.m */,
+				2C3D367E2B38C8655765A27D88EFEF3A /* NBGeneratedPhoneNumberMetaData.h */,
+				2E48A865FBF48EA1AE0FFC555F479B2E /* NBMetadataHelper.h */,
+				ADE171907A6CCCD7252EB6044DEAE7D4 /* NBMetadataHelper.m */,
+				37A64A42F38EF44A1B6F3D37B763F0BD /* NBNumberFormat.h */,
+				2C721D907759B59261746DB34C56273F /* NBNumberFormat.m */,
+				26341939E98B281A6C0C3F894D7E90F3 /* NBPhoneMetaData.h */,
+				5D06C71F583B5B03BB512C41927C5532 /* NBPhoneMetaData.m */,
+				9D04510D5B482DB254789DCB0675F1D9 /* NBPhoneNumber.h */,
+				5CA12886E7D303AEDF5148240211A161 /* NBPhoneNumber.m */,
+				8CF56CB00B0A7574FEDBD36129188377 /* NBPhoneNumberDefines.h */,
+				762E91D11D1321ED913D82D9C1D1723B /* NBPhoneNumberDefines.m */,
+				A445594CFB2F1403C42EE6B68FE39F2F /* NBPhoneNumberDesc.h */,
+				648B523FCECBF9305A960A61FC0C4636 /* NBPhoneNumberDesc.m */,
+				984CCA13B506B643507EAD038F938720 /* NBPhoneNumberUtil.h */,
+				D253E096E30247B12C10D17B6FE6D0E0 /* NBPhoneNumberUtil.m */,
+				B704BDAF55562180A214C8B56C7852DA /* NSArray+NBAdditions.h */,
+				75A0FD98FB0F43522E3C66DD74E3B71C /* NSArray+NBAdditions.m */,
+				8002804E50F37AF9D6DFD92D3DEDBBFF /* Support Files */,
+			);
+			name = "libPhoneNumber-iOS";
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		78858A8A62E760528428AFE5997F94C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3315CBF60FEE8263EE8E5334F4C54953 /* libPhoneNumber_iOS.framework */,
+				D71E0F4CD96E9B79A7E530A103F4CD20 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A4ECD8EF4418B9D7B7DAEAE042A02B6 /* JCDialPad */ = {
+			isa = PBXGroup;
+			children = (
+				FAB96CE124DADD391661ADA0575B5856 /* JCDialPad.h */,
+				20370F54F5A91766872B7990BA07F520 /* JCDialPad.m */,
+				333189BFFAB18A64DF026C5137B6C822 /* JCPadButton.h */,
+				1A08502D158C220C850501EC3AF1CFA5 /* JCPadButton.m */,
+				F2F0C3223E6FDC5244BDD21C53862725 /* UIView+FrameAccessor.h */,
+				3BECCC59F2110D5792157A25F53C0CA5 /* UIView+FrameAccessor.m */,
+				D00A7AF3682EB45E0104F700513E08AA /* Support Files */,
+			);
+			name = JCDialPad;
+			path = JCDialPad;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				78858A8A62E760528428AFE5997F94C0 /* Frameworks */,
+				9EA4AA29A655BC607DBFB7DE5B2C228A /* Pods */,
+				7DC29A9D13FCA2CB899BFC822C220AE5 /* Products */,
+				AC39DA5FA26A26D6A8A1BEF1284F309F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC29A9D13FCA2CB899BFC822C220AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504DB643886342CB735967FB5019509D /* JCDialPad.framework */,
+				3683D724E6C21BA07D480E793360ADED /* libPhoneNumber_iOS.framework */,
+				14B06F0596E8716B689718850FB5FB2D /* Pods_Telephone_Keyboard.framework */,
+				E630630C0A8680E31C5A3FA18822D3B4 /* Pods_Telephone_KeyboardTests.framework */,
+				61B035861819F89CEB4C5CA228514432 /* Pods_Telephone_KeyboardUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8002804E50F37AF9D6DFD92D3DEDBBFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B3F6DBE67C66A7A2CC061EA6911A10 /* Info.plist */,
+				B07FA0D7A2426CDA1236FF3B2CD29284 /* libPhoneNumber-iOS.modulemap */,
+				308C869A1B357FF18F5739541A0B16CD /* libPhoneNumber-iOS.xcconfig */,
+				8B5D6D0FB9A75968F6E3EA78AA7E0887 /* libPhoneNumber-iOS-dummy.m */,
+				E1E973F1FE78692DA5179161BD18ED08 /* libPhoneNumber-iOS-prefix.pch */,
+				4107ACC8AF420EB0FF38CED729A3D13A /* libPhoneNumber-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		9499DBBB980E208ACBF990EE700FB916 /* Pods-Telephone Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3330C24DC1A93140D39AEE1B6DFB8C8A /* Info.plist */,
+				5E44FB70C040153AF6B304579A6D219E /* Pods-Telephone Keyboard.modulemap */,
+				997E94323C0417ADFFA4E9C6027F5F25 /* Pods-Telephone Keyboard-acknowledgements.markdown */,
+				8A13CA623666E3B232ACA960C8241943 /* Pods-Telephone Keyboard-acknowledgements.plist */,
+				20753DEA036C281D55C189624EDB09C0 /* Pods-Telephone Keyboard-dummy.m */,
+				4163E188578ECEB116EBA560F3AB3EFD /* Pods-Telephone Keyboard-frameworks.sh */,
+				6D7841DE1A453B44E1949B4702364BB9 /* Pods-Telephone Keyboard-resources.sh */,
+				8542C3F820A185A981004D80AC1A3657 /* Pods-Telephone Keyboard-umbrella.h */,
+				F5A959D432C9CD32BBDA2074A102F3F3 /* Pods-Telephone Keyboard.debug.xcconfig */,
+				B96921B13F354CD7CBCE6782840651F6 /* Pods-Telephone Keyboard.release.xcconfig */,
+			);
+			name = "Pods-Telephone Keyboard";
+			path = "Target Support Files/Pods-Telephone Keyboard";
+			sourceTree = "<group>";
+		};
+		9EA4AA29A655BC607DBFB7DE5B2C228A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4ECD8EF4418B9D7B7DAEAE042A02B6 /* JCDialPad */,
+				251CBCC45702BC4CFA3958629559D742 /* libPhoneNumber-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC39DA5FA26A26D6A8A1BEF1284F309F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9499DBBB980E208ACBF990EE700FB916 /* Pods-Telephone Keyboard */,
+				EBED2FF90E16DF446E3489FF51BF9A51 /* Pods-Telephone KeyboardTests */,
+				B8BEB25D763AA415F4AD5E5C09264353 /* Pods-Telephone KeyboardUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8BEB25D763AA415F4AD5E5C09264353 /* Pods-Telephone KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A747653AD4BD7C6A7DB8DCC5DF028A6C /* Info.plist */,
+				B60ADFE55A80EF4A372573D77928952D /* Pods-Telephone KeyboardUITests.modulemap */,
+				E6688DC90DC1A08A5CEBDFE6A56D8B96 /* Pods-Telephone KeyboardUITests-acknowledgements.markdown */,
+				2E82D7746050346B9B945685CCE1332A /* Pods-Telephone KeyboardUITests-acknowledgements.plist */,
+				4FA05EA853490F8AE4554AFC641FB184 /* Pods-Telephone KeyboardUITests-dummy.m */,
+				011A4FE20DE87E91EC9A90D0E7DA7483 /* Pods-Telephone KeyboardUITests-frameworks.sh */,
+				C23EE8ED6AE19E61CAEB757525A9D3B2 /* Pods-Telephone KeyboardUITests-resources.sh */,
+				76E54C17E23A6F74A7DD11FDDA13D316 /* Pods-Telephone KeyboardUITests-umbrella.h */,
+				37479F1003759CC0D5EEE3AE8146AD99 /* Pods-Telephone KeyboardUITests.debug.xcconfig */,
+				9B9045C18E17DB6530844491C807A4CA /* Pods-Telephone KeyboardUITests.release.xcconfig */,
+			);
+			name = "Pods-Telephone KeyboardUITests";
+			path = "Target Support Files/Pods-Telephone KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		D00A7AF3682EB45E0104F700513E08AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B367950A3EF5BE7BAB48B4463561A9F3 /* Info.plist */,
+				9C2BDD98B550B0155202449B04C53E64 /* JCDialPad.modulemap */,
+				F6F64BF9A21DC29BD2CE47CA67A71CDE /* JCDialPad.xcconfig */,
+				B87EB3BBEC3964D7C449140F7F2873D1 /* JCDialPad-dummy.m */,
+				75EF13FEBE25A90DC89863592B5A4D57 /* JCDialPad-prefix.pch */,
+				1EC18DBAE0D8EFC5836EC38BFFD2800C /* JCDialPad-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCDialPad";
+			sourceTree = "<group>";
+		};
+		D71E0F4CD96E9B79A7E530A103F4CD20 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EDB80047C7AF3B6CCFD7F0E1BD93 /* CoreTelephony.framework */,
+				DAC82FB5AB191DEB0ACFE64DF6273202 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBED2FF90E16DF446E3489FF51BF9A51 /* Pods-Telephone KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				76ABAC894F01DF3E6E2C9BD8CD8D76C9 /* Info.plist */,
+				F8A6B64B6C6955D5D36B0F94C209882A /* Pods-Telephone KeyboardTests.modulemap */,
+				4F523BDD789EA5A01DAB95B5795D7606 /* Pods-Telephone KeyboardTests-acknowledgements.markdown */,
+				EBD178AE9F53F194316C52C4FA1AED2D /* Pods-Telephone KeyboardTests-acknowledgements.plist */,
+				DA79EFFBFBD179A6A65E2EEFF2CC090F /* Pods-Telephone KeyboardTests-dummy.m */,
+				805768FFFF162397DBDF46499006B4A9 /* Pods-Telephone KeyboardTests-frameworks.sh */,
+				C666DFF2BC2E8373505E45081D7BFC92 /* Pods-Telephone KeyboardTests-resources.sh */,
+				96804DF4D4AE0CDBF1A67CCDAEBABF42 /* Pods-Telephone KeyboardTests-umbrella.h */,
+				6476FFB29B85F18D8CE19C4B5D705921 /* Pods-Telephone KeyboardTests.debug.xcconfig */,
+				EF943CA122B8C4233A382F3E95B8C1CE /* Pods-Telephone KeyboardTests.release.xcconfig */,
+			);
+			name = "Pods-Telephone KeyboardTests";
+			path = "Target Support Files/Pods-Telephone KeyboardTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DDC087708216F8E9697BEC741272FB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0440E53560CC3CCF817EE538ECE741A /* Pods-Telephone KeyboardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7442AFF54963000EB7E9BBDD207F3253 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D1E027060F89421152E5D4FB020FD4 /* libPhoneNumber-iOS-umbrella.h in Headers */,
+				13CA08C1B6787B6D0F83CB6BEB2F70FF /* NBAsYouTypeFormatter.h in Headers */,
+				58C13DEF8C9A1151C027181F0DA0CB8B /* NBGeneratedPhoneNumberMetaData.h in Headers */,
+				29CBE97E52FE18E3D14E5F44466524F4 /* NBMetadataHelper.h in Headers */,
+				43586F4E1B6806D766E2D140F7AFF0DB /* NBNumberFormat.h in Headers */,
+				93F5C77FA1C1D4FF0438761C025851E5 /* NBPhoneMetaData.h in Headers */,
+				8FACD3CE4DDEF7646BECA6893D02DFD3 /* NBPhoneNumber.h in Headers */,
+				93F704F3C018E758CE5D9C37EDDB456B /* NBPhoneNumberDefines.h in Headers */,
+				B581AA5B81C740A647FD18B54555F354 /* NBPhoneNumberDesc.h in Headers */,
+				34BCB31C7F7FFDDBF102264F77A22B93 /* NBPhoneNumberUtil.h in Headers */,
+				227EDE5205B6256572137A356FA87B75 /* NSArray+NBAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813362A26B25E4531708F2DB4EA65384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E834912E3185FEB0AE2340B1D16A5 /* Pods-Telephone KeyboardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30B39C209472701CBA9AAF64288EAD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5AA80063F75411B97FE237A22A457D /* Pods-Telephone Keyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F465DB0CDD70B464131B61A5455F917F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE4C255B9BDAFE8A5602354E0937999 /* JCDialPad-umbrella.h in Headers */,
+				0751061D16CB4FF94117E3D9699BFC83 /* JCDialPad.h in Headers */,
+				DDC62B1373C35417D76A1120A4BFCE35 /* JCPadButton.h in Headers */,
+				8221A54B2A83BCA311FBC000334A7D8A /* UIView+FrameAccessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FC225F85B9FC9C4617001696CDD84E0 /* Pods-Telephone Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698C3CE489194FF0956DB8874A6324E8 /* Build configuration list for PBXNativeTarget "Pods-Telephone Keyboard" */;
+			buildPhases = (
+				EFAAEFA2D4D15CA2DD17DC93C8147EC8 /* Sources */,
+				9E6F61F9BF913CE09FC821DBA09738C0 /* Frameworks */,
+				E30B39C209472701CBA9AAF64288EAD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA601F865AA7D6A068419D9C31F1F85 /* PBXTargetDependency */,
+				43244162010B6B7090C6EA1AA656D064 /* PBXTargetDependency */,
+			);
+			name = "Pods-Telephone Keyboard";
+			productName = "Pods-Telephone Keyboard";
+			productReference = 14B06F0596E8716B689718850FB5FB2D /* Pods_Telephone_Keyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F0145C8A69745DB0388FAF7C6245B61 /* Pods-Telephone KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B1740ADAFB99D0B066A6561C531E27 /* Build configuration list for PBXNativeTarget "Pods-Telephone KeyboardUITests" */;
+			buildPhases = (
+				39C045953929006684D4D963F02712A1 /* Sources */,
+				EF439ED9F826058176A8EA427EB3900B /* Frameworks */,
+				5DDC087708216F8E9697BEC741272FB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E66B6EF4B6E6F91882A1CB2859F5C202 /* PBXTargetDependency */,
+			);
+			name = "Pods-Telephone KeyboardUITests";
+			productName = "Pods-Telephone KeyboardUITests";
+			productReference = 61B035861819F89CEB4C5CA228514432 /* Pods_Telephone_KeyboardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88C2523B69DE1AD6D791628BE542D9C4 /* JCDialPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C00D703FD1FFA1B09D73095CF84D8 /* Build configuration list for PBXNativeTarget "JCDialPad" */;
+			buildPhases = (
+				23CF9B6DA6210C260D802193687247DC /* Sources */,
+				6AD24EC8A708C6192AC78B7CBEECBB5B /* Frameworks */,
+				F465DB0CDD70B464131B61A5455F917F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078183D4D7F852A1FE86A0EB4BB0422D /* PBXTargetDependency */,
+			);
+			name = JCDialPad;
+			productName = JCDialPad;
+			productReference = 504DB643886342CB735967FB5019509D /* JCDialPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9274C20FA962D66784AE5B8CD0C5C358 /* Pods-Telephone KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0681EBF20FAEDC710DAAD7C864D2843 /* Build configuration list for PBXNativeTarget "Pods-Telephone KeyboardTests" */;
+			buildPhases = (
+				0E0B47DA268BBA7F9183FCAA633E6BE3 /* Sources */,
+				C04206746E800641ADA149DC55ACC47B /* Frameworks */,
+				813362A26B25E4531708F2DB4EA65384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397204A6CE0263CD12A45D353FDDAAEB /* PBXTargetDependency */,
+			);
+			name = "Pods-Telephone KeyboardTests";
+			productName = "Pods-Telephone KeyboardTests";
+			productReference = E630630C0A8680E31C5A3FA18822D3B4 /* Pods_Telephone_KeyboardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF539237882C886DCFB8D95ECF8490F3 /* libPhoneNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF2EEA151A3C31C4BB222E2515F5D6F /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */;
+			buildPhases = (
+				581536E68D2029B1546278D83F71A133 /* Sources */,
+				C64AD316662FE44B882DF747CA414353 /* Frameworks */,
+				7442AFF54963000EB7E9BBDD207F3253 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libPhoneNumber-iOS";
+			productName = "libPhoneNumber-iOS";
+			productReference = 3683D724E6C21BA07D480E793360ADED /* libPhoneNumber_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7DC29A9D13FCA2CB899BFC822C220AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C2523B69DE1AD6D791628BE542D9C4 /* JCDialPad */,
+				BF539237882C886DCFB8D95ECF8490F3 /* libPhoneNumber-iOS */,
+				3FC225F85B9FC9C4617001696CDD84E0 /* Pods-Telephone Keyboard */,
+				9274C20FA962D66784AE5B8CD0C5C358 /* Pods-Telephone KeyboardTests */,
+				7F0145C8A69745DB0388FAF7C6245B61 /* Pods-Telephone KeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0B47DA268BBA7F9183FCAA633E6BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406DF5D606BC32CA40BEA2DC8CF6276 /* Pods-Telephone KeyboardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CF9B6DA6210C260D802193687247DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2E9694C843A1FEB2B1284685D8894D /* JCDialPad-dummy.m in Sources */,
+				1C8E78937DA7D3D5AE88389E4C867EB1 /* JCDialPad.m in Sources */,
+				0733D1359303EB0CD27419414523EAD7 /* JCPadButton.m in Sources */,
+				2CBB3CC70F1AC0ED5E98BB917EE41F33 /* UIView+FrameAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C045953929006684D4D963F02712A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E171B6350C911B5A1EA114B9328AA2B3 /* Pods-Telephone KeyboardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581536E68D2029B1546278D83F71A133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD22A532A4930EA595F3DC92F7E76B /* libPhoneNumber-iOS-dummy.m in Sources */,
+				9CD2A3EC4B306972427B3D1EDA618685 /* NBAsYouTypeFormatter.m in Sources */,
+				C95AD8B7D9AB8A4A7087E310A85AFFB8 /* NBMetadataHelper.m in Sources */,
+				AA3023224D8EED433E9FEC0C47E746E4 /* NBNumberFormat.m in Sources */,
+				B2B071C8F593CF3C9C496768DE9F7E66 /* NBPhoneMetaData.m in Sources */,
+				E70507FE4497B6828DE1417BA750C476 /* NBPhoneNumber.m in Sources */,
+				980B2DCCCDA34E5BF3565260ED26D943 /* NBPhoneNumberDefines.m in Sources */,
+				A1FDDFBCED75A75C849275D96E9D5F1D /* NBPhoneNumberDesc.m in Sources */,
+				E9CA3B8BB6E9073ED17DDDDD8CEB5302 /* NBPhoneNumberUtil.m in Sources */,
+				B2B4B4913954DD224075BDDF67D77879 /* NSArray+NBAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAAEFA2D4D15CA2DD17DC93C8147EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15AF2D55BB82B3048DEC1A1ECB70158 /* Pods-Telephone Keyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078183D4D7F852A1FE86A0EB4BB0422D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = BF539237882C886DCFB8D95ECF8490F3 /* libPhoneNumber-iOS */;
+			targetProxy = 0DECF11DB22DB28955FEC94B44777F05 /* PBXContainerItemProxy */;
+		};
+		397204A6CE0263CD12A45D353FDDAAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Telephone Keyboard";
+			target = 3FC225F85B9FC9C4617001696CDD84E0 /* Pods-Telephone Keyboard */;
+			targetProxy = 34B3ED2C8E8BC64A68B6BE936BFCCA07 /* PBXContainerItemProxy */;
+		};
+		43244162010B6B7090C6EA1AA656D064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = BF539237882C886DCFB8D95ECF8490F3 /* libPhoneNumber-iOS */;
+			targetProxy = AD55A21E914D9E4B5E7D472E18D5AD9B /* PBXContainerItemProxy */;
+		};
+		E66B6EF4B6E6F91882A1CB2859F5C202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Telephone Keyboard";
+			target = 3FC225F85B9FC9C4617001696CDD84E0 /* Pods-Telephone Keyboard */;
+			targetProxy = A060ABD0779FC6728F4921B4B340A47D /* PBXContainerItemProxy */;
+		};
+		FEA601F865AA7D6A068419D9C31F1F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCDialPad;
+			target = 88C2523B69DE1AD6D791628BE542D9C4 /* JCDialPad */;
+			targetProxy = 21B9FAB84356B3A10B4EA9D2299165CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B40151AC31A0BFD8A893CAB50F7C877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308C869A1B357FF18F5739541A0B16CD /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libPhoneNumber_iOS;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16A3FBB7B86DEDD678DA01F352D339E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37479F1003759CC0D5EEE3AE8146AD99 /* Pods-Telephone KeyboardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone KeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone KeyboardUITests/Pods-Telephone KeyboardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B2A086ADF61D48F6CC2D6404032AEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96921B13F354CD7CBCE6782840651F6 /* Pods-Telephone Keyboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone Keyboard/Pods-Telephone Keyboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4130EF19E093F8BB60B56EB55E943340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF943CA122B8C4233A382F3E95B8C1CE /* Pods-Telephone KeyboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone KeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone KeyboardTests/Pods-Telephone KeyboardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53E1D37D1ACB501C442B71D3C9A8A495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308C869A1B357FF18F5739541A0B16CD /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libPhoneNumber_iOS;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68DBD94B4FD9324F48A7691149B58BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9045C18E17DB6530844491C807A4CA /* Pods-Telephone KeyboardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone KeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone KeyboardUITests/Pods-Telephone KeyboardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEDC08BD6EFA04F047D31D114C82EFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F64BF9A21DC29BD2CE47CA67A71CDE /* JCDialPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCDialPad/JCDialPad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCDialPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JCDialPad/JCDialPad.modulemap";
+				PRODUCT_MODULE_NAME = JCDialPad;
+				PRODUCT_NAME = JCDialPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1A6BD8EBB7029360395F1D481C6A04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F64BF9A21DC29BD2CE47CA67A71CDE /* JCDialPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCDialPad/JCDialPad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCDialPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JCDialPad/JCDialPad.modulemap";
+				PRODUCT_MODULE_NAME = JCDialPad;
+				PRODUCT_NAME = JCDialPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9D9C92D7D1BDBB5C44682A4DACA0620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6476FFB29B85F18D8CE19C4B5D705921 /* Pods-Telephone KeyboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone KeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone KeyboardTests/Pods-Telephone KeyboardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAB51F15FAE9C8B036C4D68CB51B3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A959D432C9CD32BBDA2074A102F3F3 /* Pods-Telephone Keyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone Keyboard/Pods-Telephone Keyboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698C3CE489194FF0956DB8874A6324E8 /* Build configuration list for PBXNativeTarget "Pods-Telephone Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB51F15FAE9C8B036C4D68CB51B3861 /* Debug */,
+				1B2A086ADF61D48F6CC2D6404032AEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954C00D703FD1FFA1B09D73095CF84D8 /* Build configuration list for PBXNativeTarget "JCDialPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDC08BD6EFA04F047D31D114C82EFDE /* Debug */,
+				B1A6BD8EBB7029360395F1D481C6A04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B1740ADAFB99D0B066A6561C531E27 /* Build configuration list for PBXNativeTarget "Pods-Telephone KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A3FBB7B86DEDD678DA01F352D339E6 /* Debug */,
+				68DBD94B4FD9324F48A7691149B58BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0681EBF20FAEDC710DAAD7C864D2843 /* Build configuration list for PBXNativeTarget "Pods-Telephone KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D9C92D7D1BDBB5C44682A4DACA0620 /* Debug */,
+				4130EF19E093F8BB60B56EB55E943340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF2EEA151A3C31C4BB222E2515F5D6F /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E1D37D1ACB501C442B71D3C9A8A495 /* Debug */,
+				0B40151AC31A0BFD8A893CAB50F7C877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

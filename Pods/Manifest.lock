@@ -1,0 +1,20 @@
+PODS:
+  - JCDialPad (0.1.1):
+    - libPhoneNumber-iOS
+  - libPhoneNumber-iOS (0.9.13)
+
+DEPENDENCIES:
+  - JCDialPad
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JCDialPad
+    - libPhoneNumber-iOS
+
+SPEC CHECKSUMS:
+  JCDialPad: d977d1ff76eaaa1939c5f3b8882937094e093b3d
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+
+PODFILE CHECKSUM: 15667f525e178e12c67ecef519b58afe4a3fb0bd
+
+COCOAPODS: 1.5.3
